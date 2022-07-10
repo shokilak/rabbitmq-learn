@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "amqplib": "^0.10.0"
+  },
+  "name": "rabbitmq-learn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:send": "nodemon index.js",
+    "start:recieve": "nodemon recieve.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shokilak/rabbitmq-learn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shokilak/rabbitmq-learn/issues"
+  },
+  "homepage": "https://github.com/shokilak/rabbitmq-learn#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
